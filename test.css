@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    background-color: white;
+}
+html{
+    font-size: 62,5%;
+}
+
+
+.Pres{
+    position: static;
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right:0%;
+    height: auto;
+    display: block;
+}
+
+header{
+    background: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color 0,4s ease-in-out;
+    display: flex;
+}
+
+.Logo{
+    max-width: 200px;
+    margin: 10px;
+    display:flex;
+    flex: 1 1 40rem;
+}
+
+li{
+    font-size: 20px;
+    color: white;
+}
+
+#lien-head{
+    color: white;
+    text-decoration: none;
+}
+#lien-head2{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav{
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 5px;
+}
+
+.Logo-head{
+    max-width: 30px;
+    height: auto;
+}
+
+#he1{
+    display: flex;
+    flex: 15 1 50px;
+    padding-left: 30%;
+    align-items: center;
+    list-style: none;
+}
+
+#he2{
+    display: flex;
+    flex: 1 1 50px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.bouton-lien{
+    background-color: white;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+
+}
+
+#div-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#div-principal div{
+    height: auto;
+    width: auto;
+    max-width :30%;
+    background-color: whitesmoke;
+    border: 4px solid darkgreen;
+    border-radius: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+#div-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-photo div{
+    height: 400px;
+    width: 700px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+#texte-body{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.Photo_body{
+    max-width:700px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+#titre{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    /*text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;*/
+    font-weight: bold;
+    /*color: rgb(255, 214, 0);*/
+    color: #e4e300;
+}
+
+#div-champ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-champ div{
+    height: 200 px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+#Proj{
+    text-align: center;
+}
+
+.Champ{
+    cursor: pointer;  
+    height: 200 px;
+    width: 300px;
+}
+
+#div-sponso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+#div-sponso div{
+    height: auto;
+    width: auto;
+    margin:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.sponso{
+    max-width: 115px;
+    height: auto;
+}
+
+#MSS{
+    max-width: 150px;
+    height: auto;
+}
